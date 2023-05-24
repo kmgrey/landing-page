@@ -90,3 +90,74 @@ button {
     height: auto;
     border-radius: 8px;
 }
+
+/*Section Two*/
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-head,
+.card-text {
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-head {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 2vh 0;
+}
+
+.card-text {
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 25% 25%;
+    border: 3px #3882f6 solid;
+    border-radius: 16px;
+}
+
+.card-container {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 4vh;
+}
+/*Section Three*/
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: auto;
+    padding: 3vh 25vw;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1.2;
+}
+.quote-author {
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -3vh;
+    padding-top: 0;
+}
